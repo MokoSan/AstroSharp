@@ -1,6 +1,6 @@
 namespace AstroSharp.DSL
 
-module PlanetarySystemDSL =
+module PlanetarySystemDomain =
 
     open MathNet.Numerics
 
@@ -41,7 +41,7 @@ module Splitter =
 
 module PlanetarySystemParser =
 
-    open PlanetarySystemDSL 
+    open PlanetarySystemDomain 
     open ParserUtils
 
     let rec parsePlanetarySystem ( planetarySystem : PlanetarySystemInfo ) 
